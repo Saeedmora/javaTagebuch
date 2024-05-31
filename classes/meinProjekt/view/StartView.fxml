@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.Color?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="meinProjekt.controller.StartController" stylesheets="@application.css">
+    <top>
+        <HBox alignment="CENTER" spacing="10" style="-fx-background-color: #336699; -fx-padding: 10;">
+            <Label text="Digitales Tagebuch" style="-fx-text-fill: white; -fx-font-size: 20px;" />
+        </HBox>
+    </top>
+    <center>
+        <VBox alignment="CENTER" spacing="10" style="-fx-padding: 10;">
+            <Button text="Suche in deinem Tagebuch" onAction="#onSearch" maxWidth="200" />
+            <Button text="Neuen Tag erfassen" onAction="#onNewEntry" maxWidth="200" />
+        </VBox>
+    </center>
+    <bottom>
+        <HBox alignment="CENTER" spacing="10" style="-fx-padding: 10;">
+            <Label text="© 2023 Saeed Moradtalab . Alle Rechte vorbehalten." />
+        </HBox>
+    </bottom>
+</BorderPane>
+

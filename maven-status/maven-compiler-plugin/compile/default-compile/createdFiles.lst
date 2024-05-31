@@ -1,0 +1,8 @@
+meinProjekt\controller\StartController.class
+meinProjekt\controller\SearchResultsController.class
+meinProjekt\controller\NewEntryController.class
+meinProjekt\model\TagebuchManager.class
+meinProjekt\controller\SearchController.class
+meinProjekt\Main.class
+meinProjekt\model\TagebuchEntry.class
+meinProjekt\db\DatabaseHandler.class

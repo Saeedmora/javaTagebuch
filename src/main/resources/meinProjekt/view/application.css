@@ -1,0 +1,57 @@
+/* Allgemeine Stile */
+.root {
+    -fx-font-family: Arial;
+    -fx-font-size: 14px;
+}
+
+/* Kopfzeile */
+.header {
+    -fx-background-color: #336699;
+    -fx-padding: 10;
+}
+
+.header .label {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+}
+
+/* Zentrale Inhaltsbereich */
+.content {
+    -fx-padding: 10;
+}
+
+.content .text-field,
+.content .button,
+.content .text-area {
+    -fx-max-width: 400;
+}
+
+.content .text-field {
+    -fx-prompt-text-fill: #aaa;
+}
+
+.content .button {
+    -fx-background-color: #336699;
+    -fx-text-fill: white;
+    -fx-padding: 10;
+}
+
+.content .button:hover {
+    -fx-background-color: #225588;
+}
+
+.content .text-area {
+    -fx-pref-height: 200;
+    -fx-background-color: #f4f4f4;
+    -fx-border-color: #ccc;
+    -fx-padding: 10;
+}
+
+/* Fußzeile */
+.footer {
+    -fx-padding: 10;
+}
+
+.footer .label {
+    -fx-font-size: 10px;
+}
